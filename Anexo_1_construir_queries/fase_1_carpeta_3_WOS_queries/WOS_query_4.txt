@@ -1,0 +1,1 @@
+TS=("Multiomics" OR "omic*" OR "genom*" OR "transcriptom*" OR "proteom*" OR "metabolom*" OR "lipidom*" OR "phenom*" OR "phenotyp*" OR "envirom*" OR "multi-omic*" OR "bioinformatic*" OR "computational biology" OR "big data" OR "machine learning" OR "artificial intelligence" OR "predict* model*" OR "biostatistic*")
