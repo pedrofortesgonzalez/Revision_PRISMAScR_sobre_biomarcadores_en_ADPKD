@@ -1,3 +1,0 @@
-# CONSTRUCTO 2: POLIQUISTOSIS AUTOSÓMICA DOMINANTE
-
-("Polycystic Kidney*"[tiab] OR "Polycystic Kidney Disease*"[tiab] OR "PKD"[tiab] OR "ADPKD*"[tiab] OR "Renal Cyst*"[tiab] OR "Cyst*"[tiab])

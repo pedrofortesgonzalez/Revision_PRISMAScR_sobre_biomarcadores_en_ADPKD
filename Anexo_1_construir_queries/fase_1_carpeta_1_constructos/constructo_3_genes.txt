@@ -1,3 +1,0 @@
-# CONSTRUCTO 3: GENES IMPLICADOS
-
-("PKD1"[tiab] OR "PKD2"[tiab])
