@@ -1,25 +1,30 @@
 # Anexo 1: Construcción de Queries
 
-Generación y procesamiento de queries de búsqueda bibliográfica para PubMed y Web of Science.
+Generación y procesamiento de queries de búsqueda bibliográfica para PubMed y Web of Science (WOS).
 
 ## Estructura del Directorio
 
 ```
 Anexo_1_construir_queries/
+│
 ├── README.md
+│
 ├── fase_1_s1_generar_queries.ipynb
+│
 ├── fase_1_carpeta_1_constructos/
 │   ├── constructo_1_mesh_kidney_diseases.txt
 │   ├── constructo_2_adpkd.txt
 │   ├── constructo_3_genes.txt
 │   ├── constructo_4_omicas_bio_computacional.txt
 │   └── constructo_5_biomarcadores.txt
+│
 ├── fase_1_carpeta_2_PubMed_queries/
 │   ├── PM_query_1.txt
 │   ├── PM_query_2.txt
 │   ├── PM_query_3.txt
 │   ├── PM_query_4.txt
 │   └── PM_query_5.txt
+│
 └── fase_1_carpeta_3_WOS_queries/
     ├── WOS_query_1.txt
     ├── WOS_query_2.txt
@@ -32,9 +37,9 @@ Anexo_1_construir_queries/
 
 ### fase_1_s1_generar_queries.ipynb
 Notebook Jupyter que implementa el flujo de trabajo para:
-- Generación de queries para diferentes bases de datos
-- Procesamiento y conversión de formatos
-- Exportación de queries a archivos de texto
+- Generar queries para PubMed WOS a partir de los constructos almacenados en `fase1_carpeta_1_constructos`
+- Procesar queries en formato PubMed para generarlas en formato WOS
+- Exportar queries a archivos de texto
 
 ## Uso
 
