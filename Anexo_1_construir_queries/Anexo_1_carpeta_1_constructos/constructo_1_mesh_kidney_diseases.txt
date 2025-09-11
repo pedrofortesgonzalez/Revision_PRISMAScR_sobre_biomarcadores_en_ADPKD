@@ -1,0 +1,3 @@
+# CONSTRUCTO 1: TÉRMINOS MESH ENFERMEDADES RENALES HEREDITARIAS
+
+("Kidney Diseases/congenital"[Mesh] OR "Kidney Diseases/genetics"[Mesh] OR "genetic kidney disease*"[tiab] OR "congenital kidney disease*"[tiab] OR "hereditary kidney disease*"[tiab] OR "renal disease*"[tiab] OR "congenital anomal*"[tiab])
