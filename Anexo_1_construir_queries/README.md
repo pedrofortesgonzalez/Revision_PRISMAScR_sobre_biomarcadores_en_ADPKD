@@ -51,3 +51,6 @@ Notebook Jupyter que implementa el flujo de trabajo para:
 ```python
 import os, sys, session_info, re
 ```
+
+---
+*Este README forma parte de la documentación del proyecto de revisión sistemática sobre biomarcadores en ADPKD.*
