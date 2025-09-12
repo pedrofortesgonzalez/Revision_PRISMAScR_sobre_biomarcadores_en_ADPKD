@@ -1,0 +1,91 @@
+Entitlements;#;Database;Results;Search Query;Date Run
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";1;All Databases;286496;"(TS=(""genetic kidney disease*"" OR ""congenital kidney disease*"" OR ""hereditary kidney disease*"" OR ""renal disease*"" OR ""congenital anomal*"" OR (""kidney disease*"" AND (""congenital"" OR ""genetic*"" OR ""hereditary""))))			";Tue Jul 29 2025 15:29:41 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";2;All Databases;984086;"(TS=(""Polycystic Kidney*"" OR ""Polycystic Kidney Disease*"" OR ""PKD"" OR ""ADPKD*"" OR ""Renal Cyst*"" OR ""Cyst*""))			";Tue Jul 29 2025 15:30:21 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";3;All Databases;6025;"(TS=(""PKD1"" OR ""PKD2""))			";Tue Jul 29 2025 15:30:39 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";4;All Databases;11044214;"(TS=(""Multiomics"" OR ""omic*"" OR ""genom*"" OR ""transcriptom*"" OR ""proteom*"" OR ""metabolom*"" OR ""lipidom*"" OR ""phenom*"" OR ""phenotyp*"" OR ""envirom*"" OR ""multi-omic*"" OR ""bioinformatic*"" OR ""computational biology"" OR ""big data"" OR ""machine learning"" OR ""artificial intelligence"" OR ""predict* model*"" OR ""biostatistic*""))			";Tue Jul 29 2025 15:30:56 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";5;All Databases;1382132;"(TS=(""Endophenotypes"" OR ""Biomarkers"" OR ""biomarker*"" OR ""bio-marker*"" OR ""clinical marker*"" OR ""prognostic marker*"" OR ""diagnostic marker*""))			";Tue Jul 29 2025 15:31:32 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";6;All Databases;49;((#1 AND (#2 OR #3) AND #4 AND #5) NOT (SILOID==(“MEDLINE” OR “PQDT” OR “GRANTS”)))			;Tue Jul 29 2025 15:31:51 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";7;All Databases;45;"((#6 NOT (TS= (""TSC"" OR ""Wilms Tumor"" OR ""Nephroblastoma"" OR ""Retinoblastoma"" OR “Carcinoma” OR ""carcinoma"" OR “Cancer” OR ""cancer"" OR ""Tumor"" OR ""tumor""))))			";Tue Jul 29 2025 15:32:53 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";8;All Databases;39;(#7)		Timespan: 2015-01-01 to 2025-07-29	;Tue Jul 29 2025 15:33:59 GMT+0200 (Central European Summer Time)
+"
+- WOS: 1900 to 2025
+- CCC: 1998 to 2009
+- DIIDW: 1980 to 2009
+- GRANTS: 1953 to 2025
+- KJD: 1980 to 2025
+- MEDLINE: 1950 to 2025
+- PPRN: 1991 to 2025
+- PQDT: 1637 to 2025
+- SCIELO: 2002 to 2025";9;All Databases;39;"(((#8)) AND (LA==(""ENGLISH"")))		Timespan: 2015-01-01 to 2025-07-29	";Tue Jul 29 2025 15:34:42 GMT+0200 (Central European Summer Time)
