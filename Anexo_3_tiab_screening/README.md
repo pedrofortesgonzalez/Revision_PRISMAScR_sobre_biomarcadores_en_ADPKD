@@ -4,10 +4,6 @@ Notebooks, datos y resultados del proceso de **screening de títulos y abstracts
 
 ## Estructura de la carpeta
 
-- `anexo_3_udfs.py`: funciones principales para el screening interactivo y recuperación de abstracts.
-- `tabla_3.3_screening_con_abstract_progress.csv`: archivo de progreso y resultados del screening (se genera automáticamente).
-- Otros scripts y archivos auxiliares.
-
 ```
 Anexo_3_tiab_screening/
 │
@@ -21,7 +17,7 @@ Anexo_3_tiab_screening/
 │
 ├── Anexo_3_dicts_resultados.ipynb                # diccionario para análisis de resultados del screening
 │
-├── Anexo_3_carpeta_1_inputs/                     # archivos de entrada para tiab screening
+├── Anexo_3_carpeta_1_inputs/                     # archivos de entrada y para tiab screening
 │   ├── tabla_3.0_articulos_pre_revision.csv
 │   ├── tabla_3.1_articulos_con_abstract.csv
 │   ├── tabla_3.2_articulos_sin_abstract.csv
@@ -29,7 +25,7 @@ Anexo_3_tiab_screening/
 │   ├── tabla_3.3.1_articulos_para_screening.csv
 │   └── tabla_3.3.2.stats.csv
 │
-└── Anexo_3_carpeta_2_resultados/                 # archivos de salida del tiab screening
+└── Anexo_3_carpeta_2_resultados/                 # archivos de salida y auto-guardado del tiab screening
     ├── tabla_3.4_screening_wip.csv
     ├── tabla_3.5.1_include.csv
     ├── tabla_3.5.2_exclude.csv
@@ -37,10 +33,7 @@ Anexo_3_tiab_screening/
 ```
 
 ## Requisitos y dependencias
+```
+import numpy, pandas, requests, tqdm, semanticscholar
+```
 
-- Paquetes recomendados:
-  - `numpy`
-  - `pandas`
-  - `requests`
-  - `tqdm`
-  - `semanticscholar` (opcional, para recuperar abstracts desde Semantic Scholar)
