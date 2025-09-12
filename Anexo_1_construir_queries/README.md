@@ -9,7 +9,7 @@ Anexo_1_construir_queries/
 │
 ├── README.md
 │
-├── Anexo_1_notebook1_generar_queries.ipynb      # generar queries para PubMed y WOS a partir de los constructos almacenados en `Anexo_1_carpeta_1_constructos/` y exportarlas a .txt
+├── Anexo_1_notebook1_generar_queries.ipynb      # notebook para generar queries para PubMed y WOS a partir de los constructos almacenados en `Anexo_1_carpeta_1_constructos/` y exportarlas a .txt
 │
 ├── Anexo_1_carpeta_1_constructos/
 │   ├── constructo_1_mesh_kidney_diseases.txt
@@ -18,25 +18,20 @@ Anexo_1_construir_queries/
 │   ├── constructo_4_omicas_bio_computacional.txt
 │   └── constructo_5_biomarcadores.txt
 │
-├── Anexo_1_carpeta_2_PubMed_queries/
+├── Anexo_1_carpeta_2_PubMed_queries/            # queries de búsqueda de PubMed
 │   ├── PM_query_1.txt
 │   ├── PM_query_2.txt
 │   ├── PM_query_3.txt
 │   ├── PM_query_4.txt
 │   └── PM_query_5.txt
 │
-└── Anexo_1_carpeta_3_WOS_queries/
+└── Anexo_1_carpeta_3_WOS_queries/               # queries de búsqueda de WOS
     ├── WOS_query_1.txt
     ├── WOS_query_2.txt
     ├── WOS_query_3.txt
     ├── WOS_query_4.txt
     └── WOS_query_5.txt
 ```
-
-## Uso
-
-1. El proceso completo se ejecuta a través del notebook `Anexo_1_s1_generar_queries.ipynb`
-2. Las queries generadas se guardan en archivos de texto separados en el directorio correspondiente
 
 ## Dependencias
 
