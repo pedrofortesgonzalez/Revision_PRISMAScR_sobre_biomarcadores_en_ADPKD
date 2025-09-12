@@ -8,51 +8,39 @@ Notebooks, datos y resultados del proceso de **screening de títulos y abstracts
 - `tabla_3.3_screening_con_abstract_progress.csv`: archivo de progreso y resultados del screening (se genera automáticamente).
 - Otros scripts y archivos auxiliares.
 
-## ¿Qué contiene?
-
-- **Scripts de screening** para facilitar la inclusión/exclusión de artículos basada en su título, autores y abstract.
-- Utilidades para resaltar palabras clave, registrar motivos de exclusión y guardar el progreso.
-- Ejemplo de uso interactivo en terminal.
+```
+Anexo_3_tiab_screening/
+│
+├── README.md
+│
+├── Anexo_3_notebook1_recuperar_abstracts.ipynb   # notebook para pre-procesado del screening, incluyendo recuperación de abstacts
+│
+├── Anexo_3_notebook2_tiab_screening.ipynb        # notebook de screening interactivo
+│
+├── Anexo_3_udfs.py                               # funciones auxiliares para los notebooks
+│
+├── Anexo_3_dicts_resultados.ipynb                # diccionario para análisis de resultados del screening
+│
+├── Anexo_3_carpeta_1_inputs/                     # archivos de entrada para tiab screening
+│   ├── tabla_3.0_articulos_pre_revision.csv
+│   ├── tabla_3.1_articulos_con_abstract.csv
+│   ├── tabla_3.2_articulos_sin_abstract.csv
+│   ├── tabla_3.2.2_abs_rec_wos.csv
+│   ├── tabla_3.3.1_articulos_para_screening.csv
+│   └── tabla_3.3.2.stats.csv
+│
+└── Anexo_3_carpeta_2_resultados/                 # archivos de salida del tiab screening
+    ├── tabla_3.4_screening_wip.csv
+    ├── tabla_3.5.1_include.csv
+    ├── tabla_3.5.2_exclude.csv
+    └── tabla_3.5.3_stats_2.csv
+```
 
 ## Requisitos y dependencias
 
-- Python ≥ 3.8
 - Paquetes recomendados:
   - `numpy`
   - `pandas`
   - `requests`
   - `tqdm`
   - `semanticscholar` (opcional, para recuperar abstracts desde Semantic Scholar)
-
-Instala las dependencias con:
-```bash
-pip install -r requirements.txt
-```
-o manualmente:
-```bash
-pip install numpy pandas requests tqdm semanticscholar
-```
-
-## Uso básico
-
-1. **Preparar el archivo de entrada:**  
-   Asegúrate de tener un archivo CSV con los artículos a revisar. Debe contener, al menos: `Title`, `Author`, `DOI`, `Manual Tags`, `Abstract Note`.
-2. **Ejecutar el script principal:**
-   ```bash
-   python screening_functions.py
-   ```
-   Sigue las instrucciones en pantalla para clasificar los artículos.
-
-3. El progreso se guarda automáticamente en `table_3.3_screening_con_abstract_progress.csv` y puede retomarse en futuras sesiones.
-
-## Personalización
-
-- Puedes modificar la lista de palabras clave que se resaltan en los abstracts.
-- El screening permite registrar motivos personalizados de exclusión o duda.
-
-## Resultados
-
-- El archivo CSV final contiene, para cada artículo:
-  - Decisión (`include`, `exclude`, `dudoso`)
-  - Motivo (si aplica)
-  - Progreso y estadísticas automáticas
