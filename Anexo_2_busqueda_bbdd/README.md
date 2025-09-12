@@ -30,7 +30,7 @@ La búsqueda sistemática se realizó siguiendo las directrices PRISMA-ScR (*Pre
 ## Dependencias
 
 ```python
-import os, sys, session_info, re
+import os, sys, pandas as pd
 ```
 
 ---
