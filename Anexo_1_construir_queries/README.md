@@ -9,7 +9,7 @@ Anexo_1_construir_queries/
 │
 ├── README.md
 │
-├── Anexo_1_s1_generar_queries.ipynb
+├── Anexo_1_notebook1_generar_queries.ipynb
 │
 ├── Anexo_1_carpeta_1_constructos/
 │   ├── constructo_1_mesh_kidney_diseases.txt
