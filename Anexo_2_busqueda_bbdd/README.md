@@ -1,6 +1,6 @@
 # Anexo 2: Búsqueda en Bases de Datos
 
-Este directorio contiene la documentación y los resultados de las búsquedas sistemáticas realizadas en diferentes bases de datos para la revisión del alcance (*scoping review*) sobre biomarcadores en la Enfermedad Poliquística Renal Autosómica Dominante (ADPKD).
+Resultados y preprocesamiento de las búsquedas sistemáticas realizadas en PubMed y WOS.
 
 ## Estructura del Directorio
 
