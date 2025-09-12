@@ -6,11 +6,6 @@ Resultados y preprocesamiento de las búsquedas sistemáticas realizadas en PubM
 
 Los archivos en este directorio están organizados según la base de datos y la fecha de búsqueda, permitiendo un seguimiento claro del proceso de revisión sistemática.
 
-Este anexo incluye:
-- Estrategias de búsqueda utilizadas en cada base de datos
-- Resultados obtenidos de las búsquedas
-- Documentación del proceso de búsqueda sistemática
-
 ```
 Anexo_3_tiab_screening/
 │
@@ -18,10 +13,10 @@ Anexo_3_tiab_screening/
 │
 ├── Anexo_2_notebook1_revisar_duplicados.ipynb    # notebook para procesar resultados de búsqueda bibliográficas
 │
-├── Anexo_2_carpeta_1_historiales_busqueda/       # archivos de entrada para tiab screening
-│   ├── tabla_2.1_PubMed_Search_History.csv
-│   ├── tabla_2.2_WOS_Search_History.csv
-│   └── tabla_2.3_deduplication.csv
+├── Anexo_2_carpeta_1_historiales_busqueda/
+│   ├── tabla_2.1_PubMed_Search_History.csv       # estrategia de búsqueda utilizada en PubMed
+│   ├── tabla_2.2_WOS_Search_History.csv          # estrategia de búsqueda utilizada en WOS
+│   └── tabla_2.3_deduplication.csv               # archivos de entrada para deduplicado de resultados de búsquedas
 │
 └── Anexo_2_carpeta_2_resultados/                 # archivo de estadísticas de la búsqueda
     └── tabla_2.4_search_stats.csv
