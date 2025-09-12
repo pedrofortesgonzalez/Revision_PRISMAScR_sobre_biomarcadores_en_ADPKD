@@ -9,7 +9,7 @@ Anexo_1_construir_queries/
 │
 ├── README.md
 │
-├── Anexo_1_notebook1_generar_queries.ipynb
+├── Anexo_1_notebook1_generar_queries.ipynb      # generar queries para PubMed y WOS a partir de los constructos almacenados en `Anexo_1_carpeta_1_constructos/` y exportarlas a .txt
 │
 ├── Anexo_1_carpeta_1_constructos/
 │   ├── constructo_1_mesh_kidney_diseases.txt
@@ -32,14 +32,6 @@ Anexo_1_construir_queries/
     ├── WOS_query_4.txt
     └── WOS_query_5.txt
 ```
-
-## Archivos Principales
-
-### Anexo_1_s1_generar_queries.ipynb
-Notebook Jupyter que implementa el flujo de trabajo para:
-- Generar queries para PubMed WOS a partir de los constructos almacenados en `fase1_carpeta_1_constructos`
-- Procesar queries en formato PubMed para generarlas en formato WOS
-- Exportar queries a archivos de texto
 
 ## Uso
 
