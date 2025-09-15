@@ -41,8 +41,9 @@ El cribado TIAB se realizó siguiendo estos pasos:
 3. Registro detallado de decisiones y razones de exclusión.
 
 ## Requisitos y dependencias
-```
-import numpy, pandas, requests, tqdm, semanticscholar
+
+```python
+import os, pandas, requests, json, tqdm, semanticscholar, time, Bio, numpy
 ```
 ---
 *Este README forma parte de la documentación del proyecto de revisión sistemática sobre biomarcadores en ADPKD.*
