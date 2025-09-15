@@ -2,7 +2,7 @@
 
 Generación y procesamiento de queries de búsqueda bibliográfica para PubMed y Web of Science (WOS).
 
-## Estructura del Directorio
+## Estructura y contenido del directorio
 
 ```
 Anexo_1_construir_queries/
