@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # screening_functions.py
-import os, numpy as np, pandas as pd
+import os, pandas as pd
 import requests, json
 from tqdm import tqdm
 from semanticscholar import SemanticScholar
