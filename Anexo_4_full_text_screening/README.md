@@ -37,7 +37,3 @@ import os, pandas, numpy, re
 ```
 ---
 *Este README forma parte de la documentación del proyecto de revisión sistemática sobre biomarcadores en ADPKD.*
-
-
----
-*Este README forma parte de la documentación del proyecto de revisión sistemática sobre biomarcadores en ADPKD.*
