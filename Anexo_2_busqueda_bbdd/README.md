@@ -2,7 +2,7 @@
 
 Resultados y preprocesamiento de las búsquedas sistemáticas realizadas en PubMed y WOS.
 
-## Estructura del Directorio
+## Estructura y contenido del directorio
 
 ```
 Anexo_3_tiab_screening/
