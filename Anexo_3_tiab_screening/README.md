@@ -2,7 +2,7 @@
 
 Notebooks, datos y resultados del proceso de **screening de títulos y abstracts** para la revisión PRISMA-ScR sobre biomarcadores en ADPKD.
 
-## Estructura de la carpeta
+## Estructura y contenido del directorio
 
 ```
 Anexo_3_tiab_screening/
@@ -31,6 +31,14 @@ Anexo_3_tiab_screening/
     ├── tabla_3.5.2_exclude.csv
     └── tabla_3.5.3_stats_2.csv
 ```
+
+## Metodología
+
+El cribado TIAB se realizó siguiendo estos pasos:
+
+1. Evaluación de títulos y resúmenes de los estudios identificados en la búsqueda sistemática aplicando los criterios de inclusión y exclusión previamente definidos.
+2. Resolución de discrepancias mediante repaso de referencias cuya inclusión fuese dudosa.
+3. Registro detallado de decisiones y razones de exclusión.
 
 ## Requisitos y dependencias
 ```
