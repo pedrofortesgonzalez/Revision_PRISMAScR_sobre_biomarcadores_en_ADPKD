@@ -18,6 +18,7 @@ def create_biomarker_extraction_table():
     
     columns = [
         'article_id',          # ID único del artículo
+        'journal'
         'biomarker_name',      # Nombre del biomarcador
         'biomarker_type',      # Genético, Proteómico, Metabolómico, Imagen, etc.
         'sample_type',         # Sangre, Orina, Tejido, etc.
@@ -112,7 +113,7 @@ def add_study(article_id, author, year, title, journal, doi, study_design,
     
     # Cargar tabla actual
     try:
-        studies_df = pd.read_csv('table_4.1.4_studies_extraction.csv')
+        studies_df = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv')
     except:
         studies_df = create_study_extraction_table()
     
@@ -138,7 +139,7 @@ def add_study(article_id, author, year, title, journal, doi, study_design,
     studies_df = pd.concat([studies_df, pd.DataFrame([new_row])], ignore_index=True)
     
     # Guardar la tabla actualizada
-    studies_df.to_csv('table_4.1.4_studies_extraction.csv', index=False)
+    studies_df.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv', index=False)
     
     print(f"Estudio '{author}, {year}' añadido correctamente (ID: {article_id}).")
     return studies_df
@@ -237,8 +238,8 @@ def review(autor, year, include, exclude, reviewed, studies_df):
                 exclude.iloc[-1, exclude.columns.get_loc("DECISION")] = "exclude"
 
         # Guardar include y exclude como CSV
-        include.to_csv('table_4.1.1_include.csv', index=False)
-        exclude.to_csv('table_4.1.2_exclude.csv', index=False)
+        include.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.1_include.csv', index=False)
+        exclude.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.2_exclude.csv', index=False)
         
         return include, exclude, reviewed, study, studies_df
     
@@ -277,9 +278,9 @@ def review(autor, year, include, exclude, reviewed, studies_df):
         print(f"Reviewed: {prerev} --> {reviewed.shape[0]}")
         
         # Guardar dfs
-        include.to_csv('table_4.1.1_include.csv', index=False)
-        reviewed.to_csv('table_4.1.3_reviewed.csv', index=False)
-        studies_df.to_csv('table_4.1.4_studies_extraction.csv', index=False)
+        include.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.1_include.csv', index=False)
+        reviewed.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.3_reviewed.csv', index=False)
+        studies_df.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv', index=False)
         
         return include, exclude, reviewed, study, studies_df
 
@@ -295,29 +296,29 @@ def reload():
     """
     
     try:
-        include = pd.read_csv('table_4.1.1_include.csv', sep=",")
+        include = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.1_include.csv', sep=",")
     except:
-        include = pd.read_csv('table_4.1.1_include.csv', sep=";")
+        include = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.1_include.csv', sep=";")
 
     try:
-        exclude = pd.read_csv('table_4.1.2_exclude.csv', sep=",")
+        exclude = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.2_exclude.csv', sep=",")
     except:
-        exclude = pd.read_csv('table_4.1.2_exclude.csv', sep=";")
+        exclude = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.2_exclude.csv', sep=";")
 
     try:
-        reviewed = pd.read_csv('table_4.1.3_reviewed.csv', sep=",")
+        reviewed = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.3_reviewed.csv', sep=",")
     except:
-        reviewed = pd.read_csv('table_4.1.3_reviewed.csv', sep=";")
+        reviewed = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.3_reviewed.csv', sep=";")
     
     try:
-        studies_df = pd.read_csv("table_4.1.4_studies_extraction.csv", sep=",")
+        studies_df = pd.read_csv("Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv", sep=",")
     except:
-        studies_df = pd.read_csv("table_4.1.4_studies_extraction.csv", sep=";")
+        studies_df = pd.read_csv("Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv", sep=";")
     
     try:
-        biomarkers_df = pd.read_csv("table_4.1.5_biomarkers_extraction.csv", sep=",")
+        biomarkers_df = pd.read_csv("Anexo_4_carpeta_1_resultados/tabla_4.5_biomarkers_extraction.csv", sep=",")
     except:
-        biomarkers_df = pd.read_csv("table_4.1.5_biomarkers_extraction.csv", sep=";")
+        biomarkers_df = pd.read_csv("Anexo_4_carpeta_1_resultados/tabla_4.5_biomarkers_extraction.csv", sep=";")
 
     return include, exclude, reviewed, studies_df, biomarkers_df
 
@@ -346,7 +347,7 @@ def add_biomarker(article_id, name, biomarker_type, sample_type, technique,
     
     # Cargar tabla actual
     try:
-        biomarkers_df = pd.read_csv('table_4.1.5_biomarkers_extraction.csv')
+        biomarkers_df = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.5_biomarkers_extraction.csv')
     except:
         biomarkers_df = create_biomarker_extraction_table()
     
@@ -368,7 +369,7 @@ def add_biomarker(article_id, name, biomarker_type, sample_type, technique,
     biomarkers_df = pd.concat([biomarkers_df, pd.DataFrame([new_row])], ignore_index=True)
     
     # Guardar la tabla actualizada
-    biomarkers_df.to_csv('table_4.1.5_biomarkers_extraction.csv', index=False)
+    biomarkers_df.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.5_biomarkers_extraction.csv', index=False)
     
     print(f"Biomarcador '{name}' añadido correctamente (asociado al artículo ID: {article_id}).")
     return biomarkers_df
@@ -385,8 +386,8 @@ def generate_summary_tables():
     
     try:
         # Cargar los datos
-        studies_df = pd.read_csv('table_4.1.4_studies_extraction.csv')
-        biomarkers_df = pd.read_csv('table_4.1.5_biomarkers_extraction.csv')
+        studies_df = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv')
+        biomarkers_df = pd.read_csv('Anexo_4_carpeta_1_resultados/tabla_4.5_biomarkers_extraction.csv')
         
         # 1. Tabla resumen de estudios
         study_summary = studies_df[['author', 'year', 'study_design', 
@@ -426,8 +427,8 @@ def generate_summary_tables():
         ]
         
         # Guardar tablas resumen
-        study_summary.to_csv('table_4.1.4_studies_extraction.csv', index=False)
-        biomarker_summary.to_csv('table_4.1.5_biomarkers_extraction.csv', index=False)
+        study_summary.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.4_studies_extraction.csv', index=False)
+        biomarker_summary.to_csv('Anexo_4_carpeta_1_resultados/tabla_4.5_biomarkers_extraction.csv', index=False)
         
         print("Tablas resumen generadas correctamente.")
         
