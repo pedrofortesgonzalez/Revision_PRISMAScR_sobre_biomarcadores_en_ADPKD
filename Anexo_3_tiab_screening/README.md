@@ -20,7 +20,7 @@ Anexo_3_tiab_screening/
 ├── Anexo_3_carpeta_1_inputs/                     # archivos de entrada y para tiab screening
 │   ├── tabla_3.0_articulos_pre_revision.csv
 │   ├── tabla_3.1_articulos_con_abstract.csv
-│   ├── tabla_3.2_articulos_sin_abstract.csv
+│   ├── tabla_3.2.1_articulos_sin_abstract.csv
 │   ├── tabla_3.2.2_abs_rec_wos.csv
 │   ├── tabla_3.3.1_articulos_para_screening.csv
 │   └── tabla_3.3.2.stats.csv
