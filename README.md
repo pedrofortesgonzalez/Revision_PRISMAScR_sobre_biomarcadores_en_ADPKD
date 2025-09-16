@@ -1,6 +1,6 @@
 # Revisión Sistemática PRISMA-ScR sobre Biomarcadores en ADPKD
 
-Este repositorio contiene toda la documentación, archivos y resultados derivados de la *scoping review* sobre biomarcadores en ADPKD (PRISMA-ScR).
+Este repositorio contiene toda la documentación, archivos y resultados derivados de la *scoping review* sobre biomarcadores en ADPKD hecha según las directrices PRISMA-ScR.
 
 ## Estructura del Repositorio
 
