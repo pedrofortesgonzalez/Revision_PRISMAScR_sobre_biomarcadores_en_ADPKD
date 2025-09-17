@@ -1,8 +1,5 @@
-import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import re
-import seaborn as sns
-from collections import Counter
 
 
 
